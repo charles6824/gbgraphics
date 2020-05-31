@@ -73,6 +73,19 @@ header{
     width: 100%;
     height: auto;
 }
+/* ABOUT SECTION */
+.about .pic{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.about img{
+    width: 100%;
+    height: auto;
+}
+
+
 /* SERVICES SECTION */
 .title{
     color: #f79f91;
@@ -114,7 +127,7 @@ header{
     height: 60px;
     bottom: 40px;
     right: 40px;
-    background-color: #f79f91;
+    background-color: #25d366;
     color: #fff;
     border-radius: 50px;
     text-align: center;
@@ -147,7 +160,7 @@ header{
     text-align: center;
     padding: 5px;
 }
-@media(max-width:576px){
+@media(max-width:600px){
     .head{
         font-size: 1.5rem;
         padding-top: 30px !important;
